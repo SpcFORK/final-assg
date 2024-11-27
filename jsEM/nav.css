@@ -1,0 +1,41 @@
+header {
+
+  &>nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    margin-bottom: 2em;
+
+    &>img {
+      height: 5em;
+      width: auto;
+    }
+
+    &>ul {
+      display: flex;
+      flex-direction: row;
+      font-size: 1.3em;
+      gap: 1em;
+
+      &>li {
+        list-style: none;
+
+        &>a {
+          text-decoration: none;
+          font-weight: bold;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+}

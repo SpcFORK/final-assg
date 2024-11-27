@@ -1,0 +1,14 @@
+header,
+footer,
+main,
+aside {
+  width: 71em;
+  min-width: 62em;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keepNLs {
+  white-space-collapse: preserve-breaks;
+}
